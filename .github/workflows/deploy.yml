@@ -12,7 +12,7 @@ jobs:
       - name: "List files"
         run: |
           ls >> txt.txt
-          echo txt.txt
+          cat txt.txt
           #      - name: "Dioxus Deploy"
           #uses: DioxusLabs/deploy-action@0.1.1
           #with:
