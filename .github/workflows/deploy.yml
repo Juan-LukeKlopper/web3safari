@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "List files"
-        run: ls
-      - name: "Dioxus Deploy"
-        uses: DioxusLabs/deploy-action@0.1.1
-        with:
-          rootPath: "web3safari"
-          toolSource: "mrxiaozhuox/dioxus-cli"
+        run: |
+          ls >> txt.txt
+          echp txt.txt
+          #      - name: "Dioxus Deploy"
+          #uses: DioxusLabs/deploy-action@0.1.1
+          #with:
+          #rootPath: "web3safari"
+          #toolSource: "mrxiaozhuox/dioxus-cli"
