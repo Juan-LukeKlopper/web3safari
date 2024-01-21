@@ -4,7 +4,7 @@
 /dist
 .DS_Store
 /examples/assets/test_video.mp4
-
+/doc
 # new recommendation to keep the lockfile in for CI and reproducible builds
 # Cargo.lock
 

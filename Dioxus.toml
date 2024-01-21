@@ -6,7 +6,7 @@ name = "web3safari"
 default_platform = "web"
 
 # `build` & `serve` output path
-out_dir = "doc"
+out_dir = "dist"
 
 # The static resource path
 asset_dir = "public"
@@ -29,7 +29,7 @@ watch_path = ["src", "public"]
 [web.resource]
 
 # CSS style file
-style = []
+style = ["tailwind.css"]
 
 # Javascript code file
 script = []
