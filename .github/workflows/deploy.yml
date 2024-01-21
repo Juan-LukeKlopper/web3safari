@@ -12,5 +12,5 @@ jobs:
       - name: "Dioxus Deploy"
         uses: DioxusLabs/deploy-action@0.1.1
         with:
-          rootPath: "Web3_safari"
+          rootPath: "web3_safari"
           toolSource: "mrxiaozhuox/dioxus-cli"
