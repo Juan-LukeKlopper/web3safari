@@ -12,14 +12,5 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
-      - name: "List files"
-        run: |
-          ls >> txt.txt
-          cat txt.txt
-          
-
-#      - name: "Dioxus Deploy"
-#uses: DioxusLabs/deploy-action@0.1.1
-#with:
-#rootPath: "web3safari"
-#toolSource: "mrxiaozhuox/dioxus-cli"
+      - name: "Dioxus Deploy"
+        uses: DioxusLabs/deploy-action@0.1.1
