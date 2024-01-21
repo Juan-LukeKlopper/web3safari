@@ -1,0 +1,23 @@
+/target
+/playwright-tests/web/dist
+/playwright-tests/fullstack/dist
+/dist
+.DS_Store
+/examples/assets/test_video.mp4
+
+# new recommendation to keep the lockfile in for CI and reproducible builds
+# Cargo.lock
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+tarpaulin-report.html
+
+# Jetbrain
+.idea/
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
