@@ -14,3 +14,5 @@ jobs:
         with:
           rootPath: "web3safari"
           toolSource: "mrxiaozhuox/dioxus-cli"
+      - name: "List files"
+        run: ls
