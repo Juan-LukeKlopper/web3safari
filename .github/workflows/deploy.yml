@@ -9,10 +9,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: "List files"
+        run: ls
       - name: "Dioxus Deploy"
         uses: DioxusLabs/deploy-action@0.1.1
         with:
           rootPath: "web3safari"
           toolSource: "mrxiaozhuox/dioxus-cli"
-      - name: "List files"
-        run: ls
